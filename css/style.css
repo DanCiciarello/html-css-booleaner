@@ -1,0 +1,69 @@
+/* General */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Typography */
+
+h1 {
+    font-size: 40px;
+}
+
+
+/* Site header */
+
+header {
+    height: 100px;
+    background-color: #639EF8;
+    background-image: url('../img/pattern.png');
+    background-size: 400px;
+}
+
+header img {
+    width: 200px;
+    padding-top: 40px;
+}
+
+
+/* Page title */
+
+.page-title {
+    padding: 20px 0px;
+}
+
+main .page-title p {
+    color: #808080;
+    padding-top: 10px;
+}
+
+main .page-title a {
+    text-decoration: none;
+    color: #29A4DF;
+}
+
+#page-title-date {
+    font-size: 12px;
+}
+
+
+/* Article images */
+
+main .article-images figure figcaption {
+    font-size: 12px;
+}
+
+
+/* Blog article */
+
+article {
+    padding: 20px 0;
+}
+
+#text-highlighted {
+    background-color: yellow;
+}
