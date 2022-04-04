@@ -13,6 +13,18 @@ h1 {
     font-size: 40px;
 }
 
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.text-highlighted {
+    background-color: yellow;
+}
+
 
 /* Site header */
 
@@ -60,11 +72,7 @@ main .article-images figure figcaption {
 /* Blog article */
 
 article {
-    margin: 20px 0;
-}
-
-#text-highlighted {
-    background-color: yellow;
+    margin: 30px 0;
 }
 
 main article ul {
@@ -91,4 +99,29 @@ main article table thead th{
 
 table .highlighted-row {
     background-color: #BBE4F0;
+}
+
+
+/* Featured contents */
+
+main .featured-contents h2 {
+    color: #838383;
+}
+
+main .featured-contents .featured-image-card {
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+}
+
+main .featured-contents .featured-image-card#first-card {
+    background-image: url('../img/monitor.jpg');
+}
+
+main .featured-contents .featured-image-card#second-card {
+    background-image: url('../img/graph.jpg');
 }
